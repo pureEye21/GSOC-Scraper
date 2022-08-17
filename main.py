@@ -13,7 +13,7 @@ Links = []
 
 # from selenium.webdriver.support.select import Select
 website='https://summerofcode.withgoogle.com/programs/2022/organizations'
-path = 'C:\\chromedriver.exe'
+path = './chromedriver' #Change the path, if needed
 driver=webdriver.Chrome(path)
 driver.maximize_window()
 driver.get(website)
